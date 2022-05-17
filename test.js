@@ -82,38 +82,6 @@ let comparePoints = (alice, bob)=> {
 
 
 
-const array = [4, 0, 5, 10, 0, -7, -6, -2, 0 ]
-
-let fraction =() => 
-{
-
-let positive = 0
-let negative = 0
-let zero = 0
-
-for (i = 0; i < array.length; i++)
-{
-
-    if (array[i] > 0) {
-        positive++
-    }
-    if (array[i] < 0) {
-        negative++
-    }
-    if (array[i] = 0) {
-        zero++
-    }
-
-
-}
-
-console.log(parseFloat(positive / array.length))
-console.log(parseFloat(negative / array.length))
-console.log(parseFloat(zero / array.length))
-
-
-}
-fraction ()
 
 
 
