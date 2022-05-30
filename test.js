@@ -1,17 +1,17 @@
 // Create a function with a function name printSum( ) and print the sum of an array.
 
-let array = [10, 3, 77, 23, 6, 18, 20]
+// let array = [10, 3, 77, 23, 6, 18, 20]
 
-let printSum =(array)=>{
-let sum = 0
-for(i=0; i < array.length;  i++){
-    sum += array[i]
-}
-console.log(sum)
+// let printSum =(array)=>{
+// let sum = 0
+// for(i=0; i < array.length;  i++){
+//     sum += array[i]
+// }
+// console.log(sum)
 
-}
+// }
 
-printSum ([5,5,5]);
+// printSum ([5,5,5]);
 
 
 
@@ -25,54 +25,54 @@ printSum ([5,5,5]);
 // The comparison points should be the total points a person earned.
 
 
-const alice = [100, 40, 10]
-const bob = [50, 60, 10]
+// const alice = [100, 40, 10]
+// const bob = [50, 60, 10]
 
-let comparePoints = (alice, bob)=> {
+// let comparePoints = (alice, bob)=> {
 
-    let alicePoints = 0
-    let bobPoints = 0
+//     let alicePoints = 0
+//     let bobPoints = 0
 
-    if (alice[0] > bob[0]) {
+//     if (alice[0] > bob[0]) {
 
-        alicePoints++
-    }
-    else if (alice[0] < bob[0]) {
+//         alicePoints++
+//     }
+//     else if (alice[0] < bob[0]) {
 
-        bobPoints++
-    }
+//         bobPoints++
+//     }
 
-    if (alice[1] > bob[1]) {
+//     if (alice[1] > bob[1]) {
 
-        alicePoints++
-    }
-    else if (alice[1] < bob[1]) {
+//         alicePoints++
+//     }
+//     else if (alice[1] < bob[1]) {
 
-        bobPoints++
-    }
+//         bobPoints++
+//     }
 
-    if (alice[2] > bob[2]) {
+//     if (alice[2] > bob[2]) {
 
-        alicePoints++
-    }
-    else if (alice[2] < bob[2]) {
+//         alicePoints++
+//     }
+//     else if (alice[2] < bob[2]) {
 
-        bobPoints++
-    }
+//         bobPoints++
+//     }
 
-    if (alice[0] === bob[0] || alice[1] === bob[1] || alice[2] === bob[2] ) {
+//     if (alice[0] === bob[0] || alice[1] === bob[1] || alice[2] === bob[2] ) {
 
-        alicePoints
-        bobPoints
-    }
-    overallPoints = ["Alice's P = " + alicePoints, "Bob's P = " + bobPoints]
+//         alicePoints
+//         bobPoints
+//     }
+//     overallPoints = ["Alice's P = " + alicePoints, "Bob's P = " + bobPoints]
 
-    console.log (overallPoints)
+//     console.log (overallPoints)
     
 
-}
+// }
 
- comparePoints ([100,40,10], [50,60,30])
+//  comparePoints ([100,40,10], [50,60,30])
 
 
 
@@ -120,16 +120,16 @@ fraction ()
 // Create a function with a function name firstFunction( ) and return the sum of two integers(numbers)
 
 
-let number1 = 100;
-let number2 = 60;
+// let number1 = 100;
+// let number2 = 60;
 
-let firstFunction =() =>
- {
+// let firstFunction =() =>
+//  {
 
-   let sum = number1 + number2
-   console.log (sum)
+//    let sum = number1 + number2
+//    console.log (sum)
 
 
 
-}
-firstFunction ()
+// }
+// firstFunction ()
