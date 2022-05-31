@@ -19,173 +19,86 @@
 
 // Be sure to watch out for any extra or missing characters (including spaces or punctuation marks) in your output string as well!
 
-// Solution
+// Solutions
+// (A)
 
-const musicians = [-1,0,-2,3,2,4,15,50,-20,4,8,-9,2,3]
-function musicalGroup () {
-for (i = 0; i < musicians.length; i++)
+// function musicalGroup (musicians)  {
+// var result;
 
-if (musicians [i] <= 0) {
-console.log ('not a group')} 
-else if (musicians [i] == 1) {
-    console.log ('solo')
-}
-else if (musicians [i] == 2) {
-    console.log ('duet')
-}
-else if (musicians [i] == 3) {
-    console.log ('trio')
-}
-else if (musicians [i] == 4) {
-    console.log ('quartet')
-}
-else if (musicians [i] > 4) {
-    console.log ('this is a large group')
-}
+// if (musicians <= 0) {
+//  result ='not a group'
+// } 
+// else if (musicians == 1) {
+//  result ='solo'
+// }
+// else if (musicians == 2) {
+//     result ='duet'
+// }
+// else if (musicians == 3) {
+//      result ='trio'
+// }
+// else if (musicians == 4) {
+//      result ='quartet'
+// }
+// else if (musicians > 4) {
+//     result ='this is a large group'
+// }
+//     return result 
+// }
+//  console.log (musicalGroup(5))
+
+// (B)
+
+// let musicalGroup = (musicians) => {
+//  var result;
+ 
+//      if (musicians <= 0)
+//      result = 'not a group'
+//      else if (musicians == 1)
+//           result = 'solo'
+//      else if (musicians == 2)
+//           result = 'duet'
+//      else if (musicians == 3)
+//           result = 'trio'
+//      else if (musicians == 4)
+//           result = 'quartet'
+//      else if (musicians >= 5)
+//           result = 'this is a large group'
 
 
+//     return result
+//  }
 
+//   console.log (musicalGroup())
 
-}
-musicalGroup ([-1,0,-2,3,2,4,15,50,-20,4,8,-9,2,3])
+//   (C)
 
+  // function musicalGroup (musicians) {
+//  var result = "Prints"
 
-
-
-
-
-
-
-
-
-// const groups = ['not a group', 'solo', 'duet', 'trio', 'quartet', 'large group']
-// for (i=0; i < musicians.length; i++) {
-//          if (musicians[i] <= 0)
-//          {console.log (groups[0])}
-//          else if (musicians[i] = 1)
-//          {console.log (groups[1])}
-//          else if (musicians[i] = 2)
-//          {console.log (groups[2])}
-//          else if (musicians[i] = 3)
-//          {console.log (console.log)}
-//          else if (musicians[i] = 4)
-//          {console.log (groups[4])}
-//          else if (musicians[i] >= 5)
-//          {console.log (groups[5])}
+// switch (musicians)
+//  {
+//     case 0: 
+//         result = "not a group"
+//         break;
+//     case 1: 
+//         result = "solo"
+//         break;
+//     case 2: 
+//         result = "duet"
+//         break;
+//     case 3: 
+//         result = "trio"
+//         break;
+//     case 4: 
+//         result = "quartet"
+//         break;
+//     default: 
+//         result = "this is a large group"       
     
-
-
-
-
-
-
-// const musicians = []
-
-// let musicalGroup = () => {
-// let groups = ['not a group', 'solo', 'duet', 'trio', 'quartet', 'large group']
-//  for (i=0; i < musicians.length; i++) {
-//      if (musicians[i] <= 0)
-//      {return groups[0]}
-//      else if (musicians[i] = 1)
-//      {return groups[1]}
-//      else if (musicians[i] = 2)
-//      {return groups[2]}
-//      else if (musicians[i] = 3)
-//      {return groups[3]}
-//      else if (musicians[i] = 4)
-//      {return groups[4]}
-//      else if (musicians[i] >= 5)
-//      {return groups[5]}
-
-//  }
-// //    console.log (musicians[-1,0,-2,3,2,4,15,50,-20])
+        
 // }
-//  musicalGroup ([-1,0,-2,3,2,4,15,50,-20])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const musicians = [-1,0,-2,3,2,4,15,50,-20]
-// let groups = ['not a group', 'solo', 'duet', 'trio', 'quartet', 'large group']
-// let musicalGroup = () => {
-//  for (i=0; i < musicians.length; i++) {
-//      if (musicians[i] <= 0)
-//      {return groups[0]}
-//      if (musicians[i] = 1)
-//      {return groups[1]}
-//      if (musicians[i] = 2)
-//      {return groups[2]}
-//      if (musicians[i] = 3)
-//      {return groups[3]}
-//      if (musicians[i] = 4)
-//      {return groups[4]}
-//      if (musicians[i] >= 5)
-//      {return groups[5]}
-
-//  }
-
-// }
-//  musicalGroup ()
-//  console.log()
-
-// const musicians = [-1,0,-2,3,2,4,15,50,-20]
-// let printMusicalgroup = (musicians) => {
-//  let notagroup = 0
-//  let solo = 0
-//  let duet = 0
-//  let trio = 0
-//  let quartet = 0
-//  let largegroup = 0
-
-//  for (i=0; i < musicians.length; i++) {
-//      if (musicians[i] <= 0)
-//      {notagroup++}
-//      if (musicians[i] = 1)
-//      {solo++}
-//      if (musicians[i] = 2)
-//      {duet++}
-//      if (musicians[i] = 3)
-//      {trio++}
-//      if (musicians[i] = 4)
-//      {quartet++}
-//      if (musicians[i] >= 5)
-//      {largegroup++}
-
-//  }
+//     return result 
 // }
 
-// //  printMusicalGroup (musicians)
-// // let musicians = [2, -1, -2, 4, 2]
-// // for (i = 0; i < musicians.length; i++) {
-// // if (musicians = 2){
-// //     console.log ('duet')}
-// // if (musicians <= 0){
-// //     console.log ('notagroup')
-// // }
-// }
-
-
-// let musicians = [2, -1, -2, 4, 2]
-// function musicalGroup () {
-// for (i = 0; i < musicians.length; i++) {
-// if (musicians = 2){
-//     return ('duet')}
-// if (musicians <= 0){
-//     return ('notagroup')}
-// }
-
-// }
-// musicalGroup ()
+// console.log (musicalGroup(80));
